@@ -2,6 +2,8 @@
 
 立方体切割可视化教学工具，帮助学生理解立方体切割后各类小立方体的数量规律。
 
+**在线演示**: https://lcpmarvel.github.io/cube-cut-3d/
+
 ## 功能
 
 - 自定义立方体尺寸 (2×2×2 ~ 10×10×10)
@@ -26,16 +28,16 @@
 
 ```bash
 # 安装依赖
-pnpm install
+bun install
 
 # 启动开发服务器
-pnpm dev
+bun dev
 
 # 构建生产版本
-pnpm build
+bun run build
 
 # 预览生产版本
-pnpm preview
+bun preview
 ```
 
 ## 操作说明
@@ -50,6 +52,13 @@ pnpm preview
 - 双指捏合：缩放
 - 双指拖动：平移
 - 点击右侧「控制」按钮：打开控制面板
+
+## 部署到 GitHub Pages
+
+1. 将代码推送到 GitHub 仓库
+2. 进入仓库 Settings → Pages
+3. Source 选择 "GitHub Actions"
+4. 推送到 `master` 分支后会自动构建部署
 
 ## License
 
