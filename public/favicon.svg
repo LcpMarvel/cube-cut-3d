@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="cubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8DCC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C4B8A0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Top face -->
+  <polygon points="50,10 85,30 50,50 15,30" fill="#E8DCC4" stroke="#1A1A1A" stroke-width="2"/>
+  <!-- Left face -->
+  <polygon points="15,30 50,50 50,85 15,65" fill="#C4B8A0" stroke="#1A1A1A" stroke-width="2"/>
+  <!-- Right face -->
+  <polygon points="50,50 85,30 85,65 50,85" fill="#D4C8B4" stroke="#1A1A1A" stroke-width="2"/>
+  <!-- Grid lines on top -->
+  <line x1="32.5" y1="20" x2="32.5" y2="40" stroke="#1A1A1A" stroke-width="1" opacity="0.5"/>
+  <line x1="67.5" y1="20" x2="67.5" y2="40" stroke="#1A1A1A" stroke-width="1" opacity="0.5"/>
+  <line x1="25" y1="30" x2="75" y2="30" stroke="#1A1A1A" stroke-width="1" opacity="0.5"/>
+</svg>
